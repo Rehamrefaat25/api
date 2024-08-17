@@ -1,0 +1,67 @@
+.Post {
+  margin: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  width:100px;
+  gap: 20px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: white;
+  width: 70%;
+}
+
+.PostWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Post > p {
+  width: 60%;
+}
+.DeleteBtns {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+color:red
+}
+.replybtn{
+  border:none;
+  background-color: transparent;
+  color:#5357b6;
+  margin-left: 150px;
+cursor: pointer;
+  
+}
+.CounterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: hsl(223, 19%, 93%);
+  width: 30px;
+  color: #5357b6;
+  margin-left: 10px;
+}
+
+.CounterWrapper > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #5357b6;
+}
+.content{
+  display:block;
+  color:rgb(148, 147, 147)
+}
+.head{
+  display: flex;
+}
+.head label{
+  font-weight: bold;
+  margin: 20px;
+}
+.head span{
+  color:rgb(156, 155, 155);
+  margin:20px
+}

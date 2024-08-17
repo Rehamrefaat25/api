@@ -1,0 +1,23 @@
+.AddNewCommentSection {
+  width: 60%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AddNewCommentSection > input {
+  width: 60%;
+  height: 90%;
+  border:none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.AddNewCommentSection > button {
+  height: 50%;
+  background-color: #5357b6;
+  color:white;
+  border-radius: 5px;
+  border:none;
+}

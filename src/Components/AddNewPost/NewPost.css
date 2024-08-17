@@ -1,0 +1,23 @@
+#SendNewPostSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#NewPostField {
+  height: 70px;
+  width: 50%;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+
+#SendNewPost {
+  height: 50px;
+  background-color: #5357b6;
+  color:white;
+  padding: 5px;
+  border:none;
+  border-radius: 5px;
+  width:60px;
+}
